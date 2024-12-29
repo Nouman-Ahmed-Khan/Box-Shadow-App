@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(267deg, #0f2027, #203a43, #2c5364);
+}
+
+.my-container-class{
+    margin-top: 100px;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.result{
+    padding: 50px 0;
+}
+
+#element{
+    height: 120px;
+    width: 120px;
+    box-shadow: 0 0 20px rgba(0, 0 , 0, 0.5);
+}
+
+.slider-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="range"]{
+    width: 100%;
+}
+
+.code-wrapper{
+    grid-template-columns: 9fr 1fr;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+textarea{
+    resize: none;
+    padding: 5px;
+}
